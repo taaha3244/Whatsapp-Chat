@@ -9,6 +9,7 @@ def handle_home():
 
 @app.route('/twilio',methods=['POST'])
 def handle_twilio():
-    body=request.form.to_dict()
-    print(body)
+    data=request.form.to_dict()
+    print(data['From'])
+    print(data['Body'])
     return 'OK',200
