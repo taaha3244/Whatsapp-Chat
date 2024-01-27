@@ -1,5 +1,6 @@
+import sys
+sys.path.append("D:/projects/Whatsapp-Chat")
 from flask import Flask,request
-
 from helper_functions.openai_api import model_completion
 from helper_functions.Twilio_api import send_twilio_message
 app=Flask(__name__)
