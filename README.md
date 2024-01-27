@@ -1,4 +1,5 @@
-#WhatsApp-OpenAI Connection
+# WhatsApp-OpenAI Connection
+
 This repository contains a demo project that connects Twilio and OpenAI to provide answers to user questions using OpenAI GPT-3. The project is written in Python and served with Flask. The chat-bot is capable of handling text messages and queries related to YouTube.
 
 #Prerequisites
