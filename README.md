@@ -6,24 +6,24 @@ This repository contains a demo project that connects Twilio and OpenAI to provi
 
 Before you start following this repository, make sure you have the following:
 
--OpenAI API key: Create an account here and obtain the API key.
--Twilio project: Get the Account SID and Auth Token for your Twilio project here.
--API requesting application: Install a tool like Postman, Insomnia, etc.
--NGROK for local testing.
+- OpenAI API key: Create an account here and obtain the API key.
+- Twilio project: Get the Account SID and Auth Token for your Twilio project here.
+- API requesting application: Install a tool like Postman, Insomnia, etc.
+- NGROK for local testing.
 
 ## How to Use
 ### To replicate the functionality of this repository and run it locally, follow these steps:
 
--Create a .env file inside the root directory with the following environmental variables:
+- Create a .env file inside the root directory with the following environmental variables:
 
-(```
+```
 TWILIO_ACCOUNT_SID=YOUR_ACCOUNT_SID
 
 TWILIO_AUTH_TOKEN=YOUR_AUTH_TOKEN
 
 OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 
-FROM=whatsapp:+14155238886 )
+FROM=whatsapp:+14155238886 ```
 
 Note: The FROM variable in the .env file is the same for the Twilio WhatsApp Sandbox.
 
