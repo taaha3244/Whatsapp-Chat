@@ -17,9 +17,13 @@ To replicate the functionality of this repository and run it locally, follow the
 Create a .env file inside the root directory with the following environmental variables:
 
 TWILIO_ACCOUNT_SID=YOUR_ACCOUNT_SID
+
 TWILIO_AUTH_TOKEN=YOUR_AUTH_TOKEN
+
 OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+
 FROM=whatsapp:+14155238886
+
 Note: The FROM variable in the .env file is the same for the Twilio WhatsApp Sandbox.
 
 Create a virtual environment and activate it before installing the packages.
